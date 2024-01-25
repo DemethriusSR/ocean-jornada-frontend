@@ -54,10 +54,26 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.card{
-  border: 1px solid greenyellow;
-
+img{
+  border-radius: 10px;
 }
+
+.card{
+  border: 8px solid greenyellow;
+  border-top: 3px greenyellow;
+  border-left: 3px greenyellow;
+  border-radius: 15px 15px 15px 15px;
+  border-style: inset;
+  box-shadow: 8px 8px #c1cac2;
+  text-align: center;
+}
+
+.card > h2{
+ font-size: 32px;
+}
+
+
+
 
 @media (prefers-color-scheme: light) {
   :root {
