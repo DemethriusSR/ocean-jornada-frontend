@@ -47,22 +47,27 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #00fa0c;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.card{
+  border: 1px solid greenyellow;
+
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #314a60;
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #0c31ec;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #2efc00;
   }
 }
