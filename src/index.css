@@ -66,14 +66,31 @@ img{
   border-style: inset;
   box-shadow: 8px 8px #c1cac2;
   text-align: center;
+  cursor: pointer;
 }
 
 .card > h2{
  font-size: 32px;
 }
 
+.tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: bottom 24px;
+  max-width: 300px;
+  justify-content: center;
+}
 
-
+.tag{
+  background-color: #00fa0c;
+  color: #1a1a1a;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 4px 4px #c1cac2;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
