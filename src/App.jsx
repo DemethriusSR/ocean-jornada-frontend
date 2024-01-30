@@ -17,12 +17,16 @@ function App() {
     name: 'Morty Smith',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9u9IiuEN5YS4N6IzuF-S9gQ7sXYWgKvwGzFI-5FhskQkg1ruhNCPhqqp9DCm_9TmzLFo&usqp=CAU'
   }
+
+  const itens = [item1,item2,item3] //Lista de valores
+
   return (
     <>
     <div class="cards">
-        <Card item = {item1} /> 
+        {/* <Card item = {item1} /> 
         <Card item = {item2} /> 
-        <Card item = {item3} />
+        <Card item = {item3} /> */}
+        {itens.map(item => <Card item ={item} />)}
     </div>        
     </>
   )
