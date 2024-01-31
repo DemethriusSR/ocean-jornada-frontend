@@ -20,9 +20,13 @@
 
 .cards{
   display: flex;
+  flex-direction:row;
+  justify-content: space-between;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 32px;
+  justify-content: flex-start;
+  height: 100px;
+  margin-left: -10rem;
+  gap: 15px;
   padding: 16px;
 }
 
